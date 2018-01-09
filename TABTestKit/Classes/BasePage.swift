@@ -17,7 +17,8 @@ public protocol UITestPage: class {
 public extension UITestPage {
   /// Use primarily to assert that you're on the correct screen - all screens should try to have a trait element.
   /// If the trait is static it can be decalred in the init() function of a page, if you want it to be dynamic you can pass it an element to use as a trait
-  func await(maxDuration duration: Double = 5) {
+  func await(maxDuration duration: Double = 5, withDelay delay: UInt32 = 0) {
     GlobalFunctions().waitForElementToAppear(trait, maxDuration: duration)
+    sleep(delay)
   }
 }
