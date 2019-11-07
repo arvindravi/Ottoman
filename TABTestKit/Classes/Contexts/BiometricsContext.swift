@@ -16,15 +16,15 @@ public extension BiometricsContext {
 	}
 	
 	func deviceBiometricsAreDisabled() {
-//		Biometrics.unenrolled()
+		Biometrics.unenrolled()
 	}
 	
 	func successfullyAuthenticateBiometrics() {
-//		Biometrics.successfulAuthentication()
+		Biometrics.successfulAuthentication()
 	}
 	
 	func failToAuthenticateBiometrics() {
-//		Biometrics.unsuccessfulAuthentication()
+		Biometrics.unsuccessfulAuthentication()
 	}
 	
 }
