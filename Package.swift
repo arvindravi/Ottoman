@@ -10,7 +10,7 @@ let ttkTarget: Target = .target(name: "TABTestKit",
 let ttkLibrary: Product = .library(name: "TABTestKit",
 																	 targets: [ttkTarget.name])
 
-let packageDependency: Package.Dependency = .package(path: "~/Projects/Biometrics")
+let packageDependency: Package.Dependency = .package(path: "Biometrics")
 
 let package = Package(name: "TABTestKit",
 											platforms: [.iOS(.v10)],

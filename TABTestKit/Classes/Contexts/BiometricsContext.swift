@@ -12,8 +12,7 @@ public protocol BiometricsContext {}
 public extension BiometricsContext {
 	
 	func deviceBiometricsAreEnabled() {
-		BiometricsEmulator.doSomething()
-//		Biometrics.enrolled()
+		Biometrics.enrolled()
 	}
 	
 	func deviceBiometricsAreDisabled() {
