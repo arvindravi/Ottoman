@@ -199,7 +199,7 @@
 		D27A41E412873C298D197EB00951DFB4 /* NormalizedCoordinate+Locations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NormalizedCoordinate+Locations.swift"; sourceTree = "<group>"; };
 		D3233A450DBBE182300E313DA919CE02 /* PageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
 		D3A9FE99C2C9A693D20C41958493223D /* Stepper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
-		D4B5A8D376D2E8390D50A6517B31F5AB /* TABTestKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TABTestKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4B5A8D376D2E8390D50A6517B31F5AB /* TABTestKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TABTestKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		D779C99F3DDA9287A4F19779069D1806 /* XCUIElement+hasKeyboardFocus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "XCUIElement+hasKeyboardFocus.swift"; sourceTree = "<group>"; };
 		D91697A4C924A43E928391A7C6572D54 /* Completable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Completable.swift; sourceTree = "<group>"; };
 		DD14334364AC631CA7ED5C4E547A42D5 /* CellContaining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellContaining.swift; sourceTree = "<group>"; };

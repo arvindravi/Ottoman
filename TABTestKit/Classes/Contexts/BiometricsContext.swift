@@ -6,24 +6,26 @@
 //
 
 import Foundation
+import Biometrics
 
 public protocol BiometricsContext {}
 public extension BiometricsContext {
 	
 	func deviceBiometricsAreEnabled() {
-		Biometrics.enrolled()
+		BiometricsEmulator.doSomething()
+//		Biometrics.enrolled()
 	}
 	
 	func deviceBiometricsAreDisabled() {
-		Biometrics.unenrolled()
+//		Biometrics.unenrolled()
 	}
 	
 	func successfullyAuthenticateBiometrics() {
-		Biometrics.successfulAuthentication()
+//		Biometrics.successfulAuthentication()
 	}
 	
 	func failToAuthenticateBiometrics() {
-		Biometrics.unsuccessfulAuthentication()
+//		Biometrics.unsuccessfulAuthentication()
 	}
 	
 }

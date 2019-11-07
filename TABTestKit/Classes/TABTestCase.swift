@@ -34,7 +34,7 @@ open class TABTestCase: XCTestCase, DefaultContexts {
 	/// Override preLaunchSetup to provide custom prelaunch setup behaviour.
 	open override func setUp() {
 		continueAfterFailure = false
-		Biometrics.unenrolled()
+//		Biometrics.unenrolled()
 		App.shared.launchEnvironment["TABTestKit.UUID"] = ProcessInfo.processInfo.environment["SIMULATOR_UDID"]
 		preLaunchSetup {
 			App.shared.launch(clean: true)
