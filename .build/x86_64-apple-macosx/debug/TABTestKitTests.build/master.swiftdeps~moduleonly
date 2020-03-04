@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "d373bdc8418ec6263ceeb2937da0e4a2"
+build_time: [1583344068, 474425000]
+inputs:
+  "/Users/arvindravi/Code/Lab/iOS/TABTestKit/Tests/TABTestKitTests/TABTestKitTests.swift": [1583343130, 608658924]
+  "/Users/arvindravi/Code/Lab/iOS/TABTestKit/Tests/TABTestKitTests/XCTestManifests.swift": [1583343130, 609194166]

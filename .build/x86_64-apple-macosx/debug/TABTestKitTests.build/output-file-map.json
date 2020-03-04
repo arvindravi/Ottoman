@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKitTests.build/master.swiftdeps"
+  },
+  "/Users/arvindravi/Code/Lab/iOS/TABTestKit/Tests/TABTestKitTests/TABTestKitTests.swift": {
+    "dependencies": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKitTests.build/TABTestKitTests.d",
+    "object": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKitTests.build/TABTestKitTests.swift.o",
+    "swiftmodule": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKitTests.build/TABTestKitTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKitTests.build/TABTestKitTests.swiftdeps"
+  },
+  "/Users/arvindravi/Code/Lab/iOS/TABTestKit/Tests/TABTestKitTests/XCTestManifests.swift": {
+    "dependencies": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKitTests.build/XCTestManifests.d",
+    "object": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKitTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKitTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKitTests.build/XCTestManifests.swiftdeps"
+  }
+}

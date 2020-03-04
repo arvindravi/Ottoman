@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKit.build/master.swiftdeps"
+  },
+  "/Users/arvindravi/Code/Lab/iOS/TABTestKit/Sources/TABTestKit/TABTestKit.swift": {
+    "dependencies": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKit.build/TABTestKit.d",
+    "object": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKit.build/TABTestKit.swift.o",
+    "swiftmodule": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKit.build/TABTestKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/arvindravi/Code/Lab/iOS/TABTestKit/.build/x86_64-apple-macosx/debug/TABTestKit.build/TABTestKit.swiftdeps"
+  }
+}
