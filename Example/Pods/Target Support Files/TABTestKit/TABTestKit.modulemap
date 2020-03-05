@@ -1,6 +1,0 @@
-framework module TABTestKit {
-  umbrella header "TABTestKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
