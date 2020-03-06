@@ -7,6 +7,6 @@ target 'TABTestKit_Example' do
 	
 	target 'TABTestKit_ExampleUITests' do
 		inherit! :complete
-		pod 'TABTestKit', :path => '../'
+		pod 'Ottoman', :path => '../'
 	end
 end
