@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors          = { 'zacoid55' => 'zac@theappbusiness.com',
                          'KaneCheshire' => 'kane.cheshire@theappbusiness.com',
                          'theblixguy' => 'suyash.srijan@theappbuisness.com' }
-  s.source           = { :git => 'https://github.com/arvindravi/Ottoman.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/arvindravi/Ottoman.git', :tag => s.version.to_s, :branch => 'feature/ttk-rebrand-introducing-ottoman' }
   s.ios.deployment_target = '10.0'
   s.swift_version    = '5.0'
   s.source_files = 'Ottoman/Classes/**/*'
