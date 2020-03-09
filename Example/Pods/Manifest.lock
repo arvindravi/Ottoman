@@ -1,27 +1,27 @@
 PODS:
+  - Ottoman (1.1.0):
+    - Ottoman/BDD (= 1.1.0)
+    - Ottoman/Biometrics (= 1.1.0)
+  - Ottoman/BDD (1.1.0)
+  - Ottoman/Biometrics (1.1.0)
   - ShowTime (2.5.0)
-  - TABTestKit (1.1.0):
-    - TABTestKit/BDD (= 1.1.0)
-    - TABTestKit/Biometrics (= 1.1.0)
-  - TABTestKit/BDD (1.1.0)
-  - TABTestKit/Biometrics (1.1.0)
 
 DEPENDENCIES:
+  - Ottoman (from `../`)
   - ShowTime
-  - TABTestKit (from `../`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - ShowTime
 
 EXTERNAL SOURCES:
-  TABTestKit:
+  Ottoman:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Ottoman: 803e92a1e6cc7d252b77c32d143dd79539430d7b
   ShowTime: 7821a8fc33629f34dbd970e0b55f34126f6d9750
-  TABTestKit: 96d5fde595b1e30cbf314bb98279fdff11da0d08
 
-PODFILE CHECKSUM: cff5520fee18bc1ac482104a6673ae29b40d9690
+PODFILE CHECKSUM: 92ea02d8a7b842fcf0dec5fb9016e477cd05a5c4
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.0

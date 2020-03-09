@@ -1,9 +1,8 @@
 {
-  "name": "TABTestKit",
-  "deprecated_in_favor_of": "Ottoman",
+  "name": "Ottoman",
   "version": "1.1.0",
   "summary": "Strongly typed Swift wrapper around XCTest / XCUI, enabling you to write BDD-style automation tests, without writing much code at all.",
-  "homepage": "https://github.com/theappbusiness/TABTestKit",
+  "homepage": "https://github.com/arvindravi/Ottoman",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -14,14 +13,15 @@
     "theblixguy": "suyash.srijan@theappbuisness.com"
   },
   "source": {
-    "git": "https://github.com/theappbusiness/TABTestKit.git",
-    "tag": "1.1.0"
+    "git": "https://github.com/arvindravi/Ottoman.git",
+    "tag": "1.1.0",
+    "commit": "669976df72eaa6e4cc7189e7ecaddd8eac0ca4ed"
   },
   "platforms": {
     "ios": "10.0"
   },
   "swift_versions": "5.0",
-  "source_files": "TABTestKit/Classes/**/*",
+  "source_files": "Ottoman/Classes/**/*",
   "frameworks": "XCTest",
   "pod_target_xcconfig": {
     "ENABLE_BITCODE": "NO"
@@ -29,11 +29,11 @@
   "subspecs": [
     {
       "name": "Biometrics",
-      "source_files": "TABTestKit/Classes/Biometrics/**/*"
+      "source_files": "Ottoman/Classes/Biometrics/**/*"
     },
     {
       "name": "BDD",
-      "source_files": "TABTestKit/Classes/BDD/**/*"
+      "source_files": "Ottoman/Classes/BDD/**/*"
     }
   ],
   "swift_version": "5.0"

@@ -1,24 +1,23 @@
 Pod::Spec.new do |s|
-  s.deprecated_in_favor_of = 'Ottoman'
-  s.name             = 'TABTestKit'
+  s.name             = 'Ottoman'
   s.version          = '1.1.0'
   s.summary          = 'Strongly typed Swift wrapper around XCTest / XCUI, enabling you to write BDD-style automation tests, without writing much code at all.'
-  s.homepage         = 'https://github.com/theappbusiness/TABTestKit'
+  s.homepage         = 'https://github.com/arvindravi/Ottoman'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.authors          = { 'zacoid55' => 'zac@theappbusiness.com',
                          'KaneCheshire' => 'kane.cheshire@theappbusiness.com',
                          'theblixguy' => 'suyash.srijan@theappbuisness.com' }
-  s.source           = { :git => 'https://github.com/theappbusiness/TABTestKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/arvindravi/Ottoman.git', :tag => s.version.to_s, :commit => "669976df72eaa6e4cc7189e7ecaddd8eac0ca4ed" }
   s.ios.deployment_target = '10.0'
   s.swift_version    = '5.0'
-  s.source_files = 'TABTestKit/Classes/**/*'
+  s.source_files = 'Ottoman/Classes/**/*'
   s.frameworks = 'XCTest'
 
   s.subspec 'Biometrics' do |b|
-    b.source_files = 'TABTestKit/Classes/Biometrics/**/*'
+    b.source_files = 'Ottoman/Classes/Biometrics/**/*'
   end
   s.subspec 'BDD' do |b|
-    b.source_files = 'TABTestKit/Classes/BDD/**/*'
+    b.source_files = 'Ottoman/Classes/BDD/**/*'
   end
   
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
